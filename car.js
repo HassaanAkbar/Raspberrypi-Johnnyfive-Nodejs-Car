@@ -24,9 +24,11 @@ board.on('ready', () => {
 });
 
 
+app.use('/', express.static('index.html'))
+app.use('/motion', express.static('view/motion'));
 app.use('/joy', express.static('view/joy'));
 
-app.use('/motion', express.static('view/motion'));
+
 
 
 app.listen(8082, () => console.log('Application listening on port 8082!'));

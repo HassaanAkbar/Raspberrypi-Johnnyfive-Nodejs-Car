@@ -8,7 +8,7 @@ var manager = nipplejs.create({
     zone: document.getElementById('joy'),
     size: 400,
     mode: 'static',
-    color: 'lightgray',
+    color: 'white',
     // restOpacity: 1,
     position: {
         left: '50%',

@@ -24,6 +24,6 @@ setInterval(()=> {
     // console.log(Motion);
     socket.emit('motion', Motion);
 
-    document.getElementById("x-axis").innerText = "x: " + Motion.x.toFixed(2);
-    document.getElementById("y-axis").innerText = "y: " + Motion.y.toFixed(2);
+    document.getElementById("x-axis").innerText = "X : " + Motion.x.toFixed(2);
+    document.getElementById("y-axis").innerText = "Y : " + Motion.y.toFixed(2);
 }, 100);
